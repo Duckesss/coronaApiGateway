@@ -1,0 +1,17 @@
+{
+    "coronaAPI": {
+        "endpoint": "/v1/coronaAPI",
+        "host":"http://localhost",
+        "port": 3000
+    },
+    "coronaServer": {
+        "endpoint": "/",
+        "host":"http://localhost",
+        "port": 3001
+    },
+    "dbService": {
+        "endpoint": "/db",
+        "host":"http://localhost",
+        "port": 3002
+    }
+}
