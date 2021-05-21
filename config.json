@@ -4,14 +4,14 @@
         "host":"http://localhost",
         "port": 3000
     },
+    "dbService": {
+        "endpoint": "/v1/db",
+        "host":"http://localhost",
+        "port": 3002
+    },
     "coronaServer": {
         "endpoint": "/",
         "host":"http://localhost",
         "port": 3001
-    },
-    "dbService": {
-        "endpoint": "/db",
-        "host":"http://localhost",
-        "port": 3002
     }
 }

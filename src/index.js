@@ -6,12 +6,12 @@
         const pm2Controller = require("./pm2Controller")
         await pm2Controller.start()
         Object.values(ROUTES).forEach(({endpoint,host,port}) => {
+            console.log(endpoint,host,port)
             const proxy = httpProxy(`${host}:${port}`, {
                 limit: '100mb'
             });
             app.use(endpoint, proxy)
         })
-        
         const PORT = 80;
         app.listen(PORT, () => {
             console.log(`API Gateway running on port ${PORT}`);
