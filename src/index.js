@@ -11,7 +11,6 @@
             });
             app.use(endpoint, proxy)
         })
-        app.get('/ping',(req,res) => res.send("pong"))
         
         const PORT = 80;
         app.listen(PORT, () => {

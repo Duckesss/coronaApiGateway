@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.21.3",
+    "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "express-http-proxy": "^1.6.2",
     "pm2": "^4.5.6"
